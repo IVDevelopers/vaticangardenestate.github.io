@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:8px 16px;
+    width:100%;
+}
+
+.main-header__brand{
+    height: 2.5rem;
+    text-decoration: none;
+    color:rgb(86, 86, 204);
+}
+
+.main-header__brand img{
+    height: 2.5rem;
+}
+
+.main-nav{
+    text-align:right;
+    margin-right: 4rem;
+}
+
+.main-nav__items{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding:8px;
+    margin:0;
+    /* background-color: red;    */
+}
+
+.main-nav__item{
+    margin:0 1rem;
+}
+
+.main-nav__items a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.2rem;
+    cursor: pointer;
+    color:#f9f8ff;
+}
+
+.main-nav__items a:hover{
+    color:#d9d9dd;
+}
+
+#home-preview{
+    background:linear-gradient(to top,rgba(59, 7, 202, 0.6), rgba(63, 10, 209, 0.6)), url("./asset/images/overview.jpg") center/cover no-repeat ;
+    height: 70vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-preview__text{
+    color:#fff;
+    padding:2rem;
+    width:45%;
+}
+
+.home-preview__text h1{
+    font-size: 6rem;
+    text-transform: capitalize;
+}
+
+.home-preview__text p{
+    font-size: 1rem;
+    margin:1rem 0;
+}
+
+.btn{
+    padding:0.5rem 1.5rem;
+    color:#fff;
+    background-color: #3b07ca99;
+    border:none;
+    cursor: pointer;
+}
+
+.btn-alt{
+    color:#2e2e3099;
+    background-color: #fff;
+}
+
+.btn:hover{
+    background-color: #5537a899;
+}
+
+.btn-alt:hover{
+    background-color: #d1d1d1;
+}
+
+.home-preview__form{
+  padding:1rem;
+  text-align: center;   
+  width:50%;
+  display:flex;
+  justify-content: center;
+  
+}
+
+.home-preview__form form{
+    width: 70%;
+    background-color: #ebebeb;
+    padding:2rem;
+    margin-left:2rem;
+}
+
+.home-preview__form form h2{
+    font-size: 1rem;
+    margin:1rem 0;
+    color:#2405797c;
+}
+
+.home-preview__form form h3{
+    font-size: 1.5rem;
+    margin:1rem 0;
+    color:#2405797c;
+    font-weight: bold;
+}
+
+.form-control input ,
+.form-control textarea{
+    width:100%;
+    margin:0.5rem 0;
+    padding:0.8rem 0.5rem;
+    border-radius: 4px;
+    outline:none;
+    border:none;
+}
+
+.form-control input:focus ,
+.form-control textarea:focus{
+    border:1px solid #bbb;
+}
+
+.home-preview__form-btn{
+ text-align: left;
+}
