@@ -1,7 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
+}
+
+
+body{
+    font-family:'Montserrat',sans-serif;
 }
 
 .main-header{
@@ -47,7 +55,7 @@
 .main-nav__items a{
     text-decoration: none;
     font-weight: bold;
-    font-size:1.2rem;
+    font-size:1rem;
     cursor: pointer;
     color:#f9f8ff;
 }
@@ -72,7 +80,7 @@
 }
 
 .home-preview__text h1{
-    font-size: 6rem;
+    font-size: 4rem;
     text-transform: capitalize;
 }
 
@@ -108,7 +116,7 @@
   width:50%;
   display:flex;
   justify-content: center;
-  
+
 }
 
 .home-preview__form form{
@@ -133,6 +141,7 @@
 
 .form-control input ,
 .form-control textarea{
+    max-width:100%;
     width:100%;
     margin:0.5rem 0;
     padding:0.8rem 0.5rem;
