@@ -69,7 +69,7 @@ body{
 
 #home-preview{
     background:linear-gradient(to top,rgba(59, 7, 202, 0.6), rgba(63, 10, 209, 0.6)), url("./asset/images/overview.jpg") center/cover no-repeat ;
-    height: 70vh;
+    min-height: 70vh;
     width:100vw;
     display:flex;
     align-items: center;
@@ -121,14 +121,16 @@ body{
   width:50%;
   display:flex;
   justify-content: center;
-
+  
 }
 
 .home-preview__form form{
-    width: 70%;
+    width: 80%;
     background-color: #ebebeb;
     padding:2rem;
     margin-left:2rem;
+    max-height:550px;
+  
 }
 
 .home-preview__form form h2{
@@ -295,7 +297,7 @@ a.btn{
 
 .about{
         background:linear-gradient(to top,rgba(59, 7, 202, 0.6), rgba(63, 10, 209, 0.6)), url("./asset/images/studio.jpg") center/cover no-repeat ;
-        height: 100vh;
+        min-height: 100vh;
         /* min-height: 70vh; */
         width:100vw;
         position:relative;
@@ -347,3 +349,16 @@ a.btn{
     color:white;
     text-align: left;
 }
+/* 
+@media(max-height:710px){
+   
+#home-preview{
+   
+    height: 50vh;
+  
+}
+    .home-preview__form form{
+        max-height:30vh;
+        color:red;
+    }
+} */
