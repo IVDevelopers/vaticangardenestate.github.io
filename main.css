@@ -125,7 +125,7 @@ body{
 }
 
 .home-preview__form form{
-    width: 50%;
+    width: 70%;
     background-color: #ebebeb;
     padding:2rem;
     margin-left:2rem;
@@ -150,7 +150,7 @@ body{
     width:100%;
     margin:0.5rem 0;
     padding:0.8rem 0.5rem;
-    border-radius: 3px;
+    border-radius: 4px;
     outline:none;
     border:1px solid #ccc;
 }
@@ -209,9 +209,6 @@ section h3{
 .top-estate__img img{
     width:100%;
 }
-
-
-
 
 
 
