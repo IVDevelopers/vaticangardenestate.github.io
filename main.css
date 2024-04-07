@@ -90,6 +90,8 @@ body{
 .home-preview__text p{
     font-size: .8rem;
     margin:1rem 0;
+    line-height: 1.3rem;
+    text-align: justify;
 }
 
 .btn{
@@ -181,6 +183,37 @@ section h3{
     font-weight: bold;
     text-align: center;
 }
+
+.top-estates{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+}
+
+.top-estate{
+    padding:0.5rem;
+    width:30%;
+}
+
+.top-estate:hover{
+    border:3px solid blue;
+    transform: scale(1.3);
+}
+
+.top-estate__img{
+    width:100%; 
+}
+
+.top-estate__img img{
+    width:100%;
+}
+
+
+
+
+
 
 .toplist-buildings{
     list-style-type: none;
@@ -301,7 +334,7 @@ a.btn{
     font-size:3rem;
     color:white;
     text-align: left;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .about-text h2{
@@ -309,7 +342,7 @@ a.btn{
     color:white;
     text-align: justify;
     margin:4rem 0;
-
+    font-weight: 600;
 }
 
 .about-text h3{
