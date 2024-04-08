@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
     <title>Vatican Garden Estate</title>
+    <script src="app.js"  defer></script>
 </head>
 
 <body>
- 
+    <div class="backdrop"></div>
     <main>
         <div id="home-preview">
             <header class="main-header">
@@ -29,8 +33,8 @@
             <div class="home-preview__text">
                 <h1> find your dream home today</h1>
                 <p>Vatican Garden Estate is a
-                     as a site and service estate with infrastructures to offer a great residential lifestyle
-                     and a commercial hub that will guarantee safety and serenity.</p>
+                    as a site and service estate with infrastructures to offer a great residential lifestyle
+                    and a commercial hub that will guarantee safety and serenity.</p>
                 <button class="btn btn-alt">INVEST WITH US</button>
             </div>
             <div class="home-preview__form">
@@ -75,9 +79,30 @@
                     </div>
                 </li>
             </ul>
-
         </section>
-
+        <div class="modal-estate">
+            <div class="modal-estate__img">
+                <img src="asset/images/e5.jpg">
+            </div>
+            <div class="modal-estate__text">
+                <h2>Name of estate</h2>
+                <h3>estate Location</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt obcaecati exercitationem
+                    harum cupiditate culpa iusto rerum repellendus ad, omnis quasi architecto laborum earum consectetur
+                    officia vel officiis fugit numquam.</p>
+                <ul class="modal-estate__features">
+                    <li class="modal-estate__feature">feature 1</li>
+                    <li class="modal-estate__feature"> feature 2</li>
+                    <li class="modal-estate__feature"> feature 3</li>
+                    <li class="modal-estate__feature"> feature 4</li>
+                    <li class="modal-estate__feature"> feature 5</li>
+                </ul>
+            </div>
+            <div>
+                <a href="" class="btn modal-estate__btn">Buy</a>
+                <button class="btn btn-orange modal-estate__btn--cancel">Cancel</button>
+            </div>
+        </div>
         <section class="toplist">
             <h2>Featured Listings</h2>
             <h3>Find Your Perfect Home</h3>
@@ -146,13 +171,20 @@
                     quas Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptas animi veniam in
                     deleniti distinctio consequuntur nihil, vero inventore corporis at dolores soluta reprehenderit esse
                     tempore quo. Aut, accusantium id!</p>
-                    <a href="" class="btn btn-alt">Read More</a>
+                <a href="" class="btn btn-alt">Read More</a>
             </div>
         </section>
-
-
     </main>
+    <footer class="main-footer">
 
+        <ul class="main-footer__links">
+            <h2>Social Media</h2>
+            <li>
+                <a> </a>
+            </li>
+        </ul>
+
+    </footer>
 </body>
 
 </html>

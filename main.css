@@ -14,6 +14,17 @@ body{
     font-family:'Roboto',sans-serif;
 }
 
+.backdrop{
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);
+    z-index:50;
+    display:none;
+}
+
 .main-header{
     position:absolute;
     top:0;
@@ -349,14 +360,52 @@ a.btn{
     text-align: left;
 }
 
+.modal-estate{
+    background-color: rgb(238, 230, 230);
+    width:60%;
+    position:absolute;
+    top:100%;
+    left:20%;
+    /* margin: auto 0; */
+    padding:2rem;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 4px;
+    /* transform: translateX(50%); */
+    z-index:100;
+    display:none;
+}
+
+.modal-estate__img{
+    width: 200px;
+    height: 250px;
+}
+
+.modal-estate__img img{
+    width:100%;
+}
+
+.modal-estate__btn{
+    justify-self: flex-start;
+    grid-column:span 2;
+    
+}
+
+.open{
+    display:block;
+}
+
+.opengrid{
+    display:grid;
+}
+
 @media(min-height:700px){
    
-#home-preview{
-    
+#home-preview{ 
     height: 80vh;
   
 }
-    .home-preview__form form{
+    /* .home-preview__form form{
         
-    }
+    } */
 }
