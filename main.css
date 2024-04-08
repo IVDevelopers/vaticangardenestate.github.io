@@ -116,7 +116,6 @@ body{
 }
 
 .home-preview__form{
-  padding:1rem;
   text-align: center;   
   width:50%;
   display:flex;
@@ -125,11 +124,11 @@ body{
 }
 
 .home-preview__form form{
-    width: 80%;
+    width: 70%;
     background-color: #ebebeb;
-    padding:2rem;
+    padding:1rem;
     margin-left:2rem;
-    max-height:550px;
+    max-height:500px; 
   
 }
 
@@ -151,7 +150,7 @@ body{
     max-width:100%;
     width:100%;
     margin:0.5rem 0;
-    padding:0.8rem 0.5rem;
+    padding:0.4rem 0.25rem;
     border-radius: 4px;
     outline:none;
     border:1px solid #ccc;
@@ -349,16 +348,15 @@ a.btn{
     color:white;
     text-align: left;
 }
-/* 
-@media(max-height:710px){
+
+@media(min-height:700px){
    
 #home-preview{
-   
-    height: 50vh;
+    
+    height: 80vh;
   
 }
     .home-preview__form form{
-        max-height:30vh;
-        color:red;
+        
     }
-} */
+}
