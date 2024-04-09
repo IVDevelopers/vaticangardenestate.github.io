@@ -26,15 +26,18 @@ body{
 }
 
 .main-header{
-    position:absolute;
+    /* position:relative;
     top:0;
-    left:0;
+    left:0; */
     background-color:transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding:8px 16px;
-    width:100%;
+    /* width:100%; */
+    /* background-color: red; */
+    grid-column:span 2;
+    
 }
 
 .main-header__brand{
@@ -82,15 +85,18 @@ body{
     background:linear-gradient(to top,rgba(59, 7, 202, 0.6), rgba(63, 10, 209, 0.6)), url("./asset/images/overview.jpg") center/cover no-repeat ;
     min-height: 70vh;
     width:100vw;
-    display:flex;
+    /* display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3.5rem auto;
 }
 
 .home-preview__text{
     color:#fff;
     padding:2rem;
-    width:45%;
+    /* width:45%; */
 }
 
 .home-preview__text h1{
@@ -128,9 +134,10 @@ body{
 
 .home-preview__form{
   text-align: center;   
-  width:50%;
-  display:flex;
-  justify-content: center;
+  /* width:50%; */
+  /* display:flex;
+  justify-content: center; */
+  align-self: auto;
   
 }
 
