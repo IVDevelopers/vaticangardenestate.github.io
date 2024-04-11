@@ -35,7 +35,8 @@ body{
     justify-content: space-between;
     padding:8px 16px;
     /* width:100%; */
-    /* background-color: red; */
+     background-color:white; 
+    
     grid-column:span 2;
     
 }
@@ -74,7 +75,7 @@ body{
     font-weight: bold;
     font-size:1rem;
     cursor: pointer;
-    color:#f9f8ff;
+    color:#3b07ca;
 }
 
 .main-nav__items a:hover{
@@ -133,11 +134,12 @@ body{
 }
 
 .home-preview__form{
+    margin-top: 2rem;
   text-align: center;   
   /* width:50%; */
   /* display:flex;
   justify-content: center; */
-  align-self: auto;
+  
   
 }
 
@@ -392,11 +394,25 @@ a.btn{
     width:100%;
 }
 
+.modal-estate__text{
+    /* padding-left: 1rem; */
+    padding:1rem;
+}
+
+.modal-estate__features{
+    list-style-type: none;
+}
 .modal-estate__btn{
     justify-self: flex-start;
     grid-column:span 2;
     
 }
+
+iframe{
+    height:400px;
+    width:100%;
+}
+
 
 .open{
     display:block;
