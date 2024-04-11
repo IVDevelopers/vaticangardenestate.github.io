@@ -2,6 +2,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 *{
     padding:0;
@@ -12,6 +13,8 @@
 
 body{
     font-family:'Roboto',sans-serif;
+    padding:0;
+    margin:0;
 }
 
 .backdrop{
@@ -85,7 +88,7 @@ body{
 #home-preview{
     background:linear-gradient(to top,rgba(59, 7, 202, 0.6), rgba(63, 10, 209, 0.6)), url("./asset/images/overview.jpg") center/cover no-repeat ;
     min-height: 70vh;
-    width:100vw;
+    width:100%;
     /* display:flex;
     align-items: center;
     justify-content: center; */
@@ -147,7 +150,7 @@ body{
     width: 70%;
     background-color: #ebebeb;
     padding:1rem;
-    margin-left:2rem;
+    /* margin-left:2rem; */
     max-height:500px; 
   
 }
@@ -318,7 +321,7 @@ a.btn{
         background:linear-gradient(to top,rgba(59, 7, 202, 0.6), rgba(63, 10, 209, 0.6)), url("./asset/images/studio.jpg") center/cover no-repeat ;
         min-height: 100vh;
         /* min-height: 70vh; */
-        width:100vw;
+        width:100%;
         position:relative;
         padding:18px;
         
@@ -421,6 +424,88 @@ iframe{
 .opengrid{
     display:grid;
 }
+
+.main-footer{
+    background-color:#190652;
+    /* font-family:'Mulish', sans-serif; */
+    display:flex;
+    justify-content: space-around;
+    /* width:100%; */
+    height: 400px;
+    padding:2rem;
+    color:white;
+}
+
+.main-footer__subscribe{
+    width:60%;
+    
+}
+
+.main-footer__subscribe--form-control{
+
+  
+}
+
+.main-footer__subscribe--form-control input {
+    padding:0.5rem 1.5rem;
+    outline:none;
+    
+}
+
+.main-footer__subscribe--form-control button{
+    padding:0.5rem;
+    background-color: #a02f2f;
+    border:none;
+    color:white;
+    
+}
+
+.main-footer__subscribe h3, 
+.text h3{
+    margin-bottom:1rem;
+}
+
+.main-footer__social-media-links{
+    font-size:3rem;
+    margin:2rem 0 1rem;
+}
+
+.main-footer__text{
+     margin-left:2rem;
+     display:flex;
+    justify-content:space-between; 
+}
+
+.text{  
+    width:30%;
+}
+
+.text ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.text ul li{
+    margin:0.5rem;
+}
+
+.text ul li a{
+    color:white;
+    text-decoration: none;
+    font-size:1rem;
+}
+
+.text ul li a:hover{
+    color:#ccc;
+}
+
+.main-footer__contact--address h3{
+    margin-top:2rem;
+}
+
+
+
 
 @media(min-height:700px){
    
