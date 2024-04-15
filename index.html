@@ -17,10 +17,15 @@
     <main>
         <div id="home-preview">
             <header class="main-header">
-                <div>
+                <div class="main-header-brand__container">
                     <a href="#" class="main-header__brand">
                         <img src="asset/images/Vatican garden estate logo (1).png" alt="">
                     </a>
+                </div>
+                <div class="mobile-handular">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
                 <nav class="main-nav">
                     <ul class="main-nav__items">
@@ -59,24 +64,39 @@
                 </form>
             </div>
         </div>
+        <div class="mobile-nav-container">
+            <nav class="nobile-nav">
+                <ul class="mobile-nav__items">
+                    <li class="mobile-nav__item"><a href="">Home</a></li>
+                    <li class="mobile-nav__item"><a href="">Estates</a></li>
+                    <li class="mobile-nav__item"><a href="">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
         <section class="estates">
             <h2>Top Estates</h2>
             <h3>Get Your Plot of land</h3>
             <ul class="top-estates">
                 <li class="top-estate" data-id="e1">
-                    <div class="top-estate__img">
-                        <img src="asset/images/e1.jpg" alt="" data-id="e1">
-                    </div>
+                    <a href="#e1_modal">
+                        <div class="top-estate__img">
+                            <img src="asset/images/e1.jpg" alt="" data-id="e1">
+                        </div>
+                    </a>
                 </li>
                 <li class="top-estate" data-id="e2">
-                    <div class="top-estate__img">
-                        <img src="asset/images/e2.jpg" alt="" data-id="e2">
-                    </div>
+                    <a href="#e2_modal">
+                        <div class="top-estate__img">
+                            <img src="asset/images/e2.jpg" alt="" data-id="e2">
+                        </div>
+                    </a>
                 </li>
                 <li class="top-estate" data-id="e3">
-                    <div class="top-estate__img">
-                        <img src="asset/images/e3.jpg" alt="" data-id="e3">
-                    </div>
+                    <a href="#e3_modal">
+                        <div class="top-estate__img">
+                            <img src="asset/images/e3.jpg" alt="" data-id="e3">
+                        </div>
+                    </a>
                 </li>
             </ul>
         </section>
@@ -91,55 +111,55 @@
         </section>
         <section class="toplist">
             <h2>Featured Listings</h2>
-            <h3>Find Your Perfect Home</h3>
+            <h3>Gallery</h3>
             <ul class="toplist-buildings">
                 <li class="toplist-building">
                     <div class="toplist-building__img">
                         <img src="asset/images/w1.jpg" alt="">
-                        <a href="" class="btn btn-orange">For Sale</a>
+                        <!-- <a href="" class="btn btn-orange">For Sale</a> -->
                     </div>
-                    <div class="toplist-building__text">
+                    <!-- <div class="toplist-building__text">
                         <p><span></span>Residential</p>
                         <h4>Modern Apartment</h4>
                         <h5>N20,000/month</h5>
                         <h6>2 bd/ 2ba / 11000sq ft</h6>
-                    </div>
+                    </div> -->
                 </li>
                 <li class="toplist-building">
                     <div class="toplist-building__img">
                         <img src="asset/images/w2.jpg" alt="">
-                        <a href="" class="btn btn-orange btn-blue">For Sale</a>
+                        <!-- <a href="" class="btn btn-orange btn-blue">For Sale</a> -->
                     </div>
-                    <div class="toplist-building__text">
-                        <p><span></span>Residential</p>
+                    <!-- <div class="toplist-building__text"> -->
+                    <!-- <p><span></span>Residential</p>
                         <h4>Modern Apartment</h4>
                         <h5>N20,000/month</h5>
                         <h6>2 bd/ 2ba / 11000sq ft</h6>
-                    </div>
+                    </div> -->
                 </li>
                 <li class="toplist-building">
                     <div class="toplist-building__img">
                         <img src="asset/images/w3.jpg" alt="">
-                        <a href="" class="btn btn-orange">For Sale</a>
+                        <!-- <a href="" class="btn btn-orange">For Sale</a> -->
                     </div>
-                    <div class="toplist-building__text">
+                    <!-- <div class="toplist-building__text">
                         <p><span></span>Commercial</p>
                         <h4>Modern Apartment</h4>
                         <h5>N20,000/month</h5>
                         <h6>2 bd/ 2ba / 11000sq ft</h6>
-                    </div>
+                    </div> -->
                 </li>
                 <li class="toplist-building">
                     <div class="toplist-building__img">
                         <img src="asset/images/w4.jpg" alt="">
-                        <a href="" class="btn btn-orange btn-blue">For Sale</a>
+                        <!-- <a href="" class="btn btn-orange btn-blue">For Sale</a> -->
                     </div>
-                    <div class="toplist-building__text">
+                    <!-- <div class="toplist-building__text">
                         <p><span></span>Commercial</p>
                         <h4>Modern Apartment</h4>
                         <h5>N20,000/month</h5>
                         <h6>2 bd/ 2ba / 11000sq ft</h6>
-                    </div>
+                    </div> -->
                 </li>
             </ul>
         </section>
@@ -161,7 +181,7 @@
             </div>
         </section>
     </main>
-   
+
     <footer class="main-footer">
         <div class="main-footer__subscribe">
             <form action="">
@@ -198,20 +218,20 @@
             <div class="main-footer__contact text">
                 <div class="main-footer__contact--email">
                     <h3>Contact</h3>
-                    <p class="phone">Phone:<span>  +2349000000000</span></p>
-                    <p class="phone">Phone:<span>  +2349000000000</span></p>
+                    <p class="phone">Phone:<span> +2349000000000</span></p>
+                    <p class="phone">Phone:<span> +2349000000000</span></p>
                     <p class="email">Email:<span>youremail@gmail.com</span></p>
                 </div>
                 <div class="main-footer__contact--address">
                     <h3>Address</h3>
                     <p class="main-footer__contact--address__details">
-                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. In delectus minima cumque enim dicta
-                         velit, facilis eos cum voluptatum ducimus. 
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. In delectus minima cumque enim dicta
+                        velit, facilis eos cum voluptatum ducimus.
                     </p>
                 </div>
             </div>
         </div>
-    </footer> 
+    </footer>
 </body>
 
 </html>

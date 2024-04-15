@@ -1,7 +1,8 @@
 const estateElements = document.querySelectorAll('.top-estate');
 const backdropElement = document.querySelector('.backdrop');
 const modalElement = document.querySelector('.modal-estate');
-
+const mobileNavElement = document.querySelector('.mobile-nav-container');
+const mobileHandularElement = document.querySelector('.mobile-handular');
 
 const estates = [
     {
@@ -61,7 +62,7 @@ for(i = 0; i < estateElements.length; i++){
         for(i = 0; i < estates.length; i++){
             if(eventId === estates[i].id){
                 modalElement.innerHTML= `
-                <div class="modal-estate__img">
+                <div class="modal-estate__img" id="${estates[i].id}_modal">
                 <img src="${estates[i].eImage}">
                 </div>
                 <div class="modal-estate__text">
@@ -102,6 +103,7 @@ for(i = 0; i < estateElements.length; i++){
 function closeModal(){
     backdropElement.classList.remove('open');
     modalElement.classList.remove('opengrid');
+    mobileNavElement.classList.remove('openflex');
 }
 
 
@@ -109,6 +111,11 @@ function closeModal(){
 backdropElement.addEventListener('click',function(){
     closeModal();
 });
+
+mobileHandularElement.addEventListener('click',function(){
+    mobileNavElement.classList.add('openflex');
+    backdropElement.classList.add('open');
+})  
 
 function estateModalDetails(){
 //  console.log('setting up my modal details')
