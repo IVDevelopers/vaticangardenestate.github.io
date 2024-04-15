@@ -676,10 +676,17 @@ iframe{
     grid-template-areas: 'image'
                         'estatetext'
                         'button';    
+    justify-content:center;
+    text-align: center;
+    }
+
+    .modal-estate__img{
+        margin:0 auto;
     }
    
     .modal-estate__img img{
        grid-area:image;
+    
     }
     
     .modal-estate__text{
